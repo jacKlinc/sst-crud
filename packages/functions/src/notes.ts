@@ -5,7 +5,7 @@ interface Note {
     content: string;
 }
 
-const notes: { [key: string]: Note } = {
+let notes: { [key: string]: Note } = {
     id1: {
         noteId: "id1",
         userId: "user1",
